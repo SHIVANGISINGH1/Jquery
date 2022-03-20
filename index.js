@@ -25,7 +25,7 @@ allParas.hide(1000) // it will hide all the paras after 1s creating a animation 
 
 // in hide you can also use speed, callback 
 
-$('#div1').text('makeme') // to change the innertext of the element with id div1
+//$('#div1').text('makeme') // to change the innertext of the element with id div1
 // it will remove all the childs of this element
 
 
@@ -52,3 +52,14 @@ $('div, p').addClass("makey") // adds makey class to both all divs and all p tag
 // similar removeClass() and toggleClass() behaves 
 
 $("#div3 div").removeClass("disappear")
+
+
+// Events in Jquery
+$("#btn1").click(function() {
+    alert("Hey I am clicked");
+})
+
+// or you can use
+$("#div3").on("click" , function() {
+    alert("Hey I am clicked");
+})
