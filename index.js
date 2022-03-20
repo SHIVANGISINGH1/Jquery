@@ -19,4 +19,11 @@ var p1 = allParas.eq(0) // gives a jquery object at index 0
 
 p1.text('Hello to you too') // changing the inner text
 
-p1.hide();
+//p1.hide(); // to hide the p1 p tag
+
+allParas.hide(1000) // it will hide all the paras after 1s creating a animation effect
+
+// in hide you can also use speed, callback 
+
+$('#div1').text('makeme') // to change the innertext of the element with id div1
+// it will remove all the childs of this element
